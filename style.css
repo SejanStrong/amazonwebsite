@@ -11,6 +11,7 @@
     height: 60px;
     background-color:#0f1111;
     color:white;
+    display: flex;
 
 }
 
@@ -19,7 +20,14 @@
     width: 100px;
 }
 .logo{
-    background-image: url("amalogo.jpeg");
+    background-image: url("/Image/amazon_logo.png");
+    background-size: cover;
     height: 50px;
     width: 100%;
+}
+.border{
+    border: 2px soild transparent; /* transp means border color bg color same*/
+}
+.border:hover{
+    border: 1.5px solid white;
 }
